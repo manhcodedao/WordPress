@@ -1,0 +1,63 @@
+body {
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
+</style>
+<style>
+body {
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
+</style>
+<scripttype="text/javascript">
+//<=!=[=C=D=A=T=A=[
+document.onkeypress=function(event) {
+event= (event||window.event);
+if (event.keyCode===123) {
+//alert('No F-12');
+returnfalse;
+}};
+document.onmousedown=function(event) {
+event= (event||window.event);
+if (event.keyCode===123) {
+//alert('No F-keys');
+returnfalse;
+}};
+document.onkeydown=function(event) {
+event= (event||window.event);
+if (event.keyCode===123) {
+//alert('No F-keys');
+returnfalse;}};
+functioncontentprotector() {
+returnfalse;
+}
+functionmousehandler(e) {
+varmyevent= (isNS) ?e:event;
+vareventbutton= (isNS) ?myevent.which:myevent.button;
+if ((eventbutton===2) || (eventbutton===3))
+returnfalse;}
+document.oncontextmenu=contentprotector;
+document.onmouseup=contentprotector;
+varisCtrl=false;
+window.onkeyup=function(e){
+if (e.which===17)
+isCtrl=false;}
+window.onkeydown=function(e){
+if (e.which===17)
+isCtrl=true;
+if (((e.which===85) || (e.which===65) || (e.which===88) || (e.which===67) || (e.which===86) || (e.which===83)) &&isCtrl===true){
+returnfalse;
+}}
+isCtrl=false;
+document.ondragstart=contentprotector;
+//]=]=>
+</script>
+</code>
