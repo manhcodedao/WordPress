@@ -1,0 +1,6 @@
+.list-top li{position:relative;padding:10px 0;height:50px;list-style:none}
+.list-top span{font-size:18px;color:#fff;background-color:#ccc;width:35px;height:35px;border-radius:100%;text-align:center;line-height:35px;position:absolute;top:50%;transform:translateY(-50%);}
+.list-top li:nth-child(2) span{background-color:#d0b07a;}
+.list-top li:nth-child(1) span{background-color:#f25630;}
+.list-top li:nth-child(3) span{background-color:#decbac;}
+.list-top a{font-size:inherit;margin-left:45px;display:block;line-height:23px;text-decoration:none}
